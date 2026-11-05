@@ -1,0 +1,17 @@
+Camera access is requested when “Scan” is opened on a supported device. The usage description is: “Scan a food package barcode to find its product in Open Food Facts.”
+
+The native interface has no login or accounts, in-app purchase, account deletion flow or App Tracking Transparency prompt. Users can create batches and diary notes.
+
+Shelf365Cue is a pantry inventory app for people who want to keep track of food packages at home. It records batches, package dates, quantities and locations, and provides a diary, calendar and summaries of pantry activity.
+
+From a cold launch, the native interface opens on “My shelves” with “Shelves” selected; there is no native onboarding sequence. No credentials or demo account are needed. Tap “Find a product”, enter a name, brand or barcode in “Name, brand or barcode”, then tap “Search online”, or select an “Available offline” product. Tap “Scan” to open “Barcode”; if scanning is unavailable, enter 4–14 digits in “Barcode digits” and tap “Look up barcode”. Select a product, set “Packs”, “Location” and optionally “Package date” and “Note”, then tap “Stock this batch”. Open a batch to see its “Batch ticket”, where “Edit”, “Mark used”, “Discard” and “Product label” are available. Tap “Start stocktake”, enter each “Actual pack count” or tap “Matches”, then tap “Save stocktake”. Open “Diary” to review activity or tap “Add a note”. Open “Calendar” to select a day and review its events. Open “Insights” to review pantry counts and trends.
+
+Pantry records and saved catalog information are kept on the device; online product searches and barcode lookups contact the product catalog, and “Contact Us” opens the support page.
+
+The native interface uses English and US-style locale formatting; the calendar starts on Monday. The brief does not establish whether behaviour differs by region.
+
+The app displays available product ingredients and does not present medical advice or a product-health assessment; the brief does not establish whether any licence or regulated-industry paperwork applies.
+
+In “Food catalog”, “Open Food Facts · community data”, “Database license · ODbL” and “Photo license · CC BY-SA” are tappable links. A “Batch ticket” can also provide the tappable “View on Open Food Facts ↗” link.
+
+The scanner is intended for food-package barcodes. No QR code or encoded digits were supplied for this review; Simulator users can enter a package’s barcode digits manually.

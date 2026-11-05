@@ -1,0 +1,1 @@
+pantry,food,inventory,barcode,batches,stocktake,diary,calendar,ingredients

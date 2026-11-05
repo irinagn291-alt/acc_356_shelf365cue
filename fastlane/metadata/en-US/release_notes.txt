@@ -1,0 +1,1 @@
+Initial release of Shelf365Cue, with pantry batches, product search and barcode scanning, stocktakes, diary notes, a calendar and insights.

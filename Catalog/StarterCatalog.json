@@ -1,0 +1,168 @@
+{
+  "source": "Open Food Facts",
+  "databaseLicense": "ODbL 1.0",
+  "products": [
+    {
+      "allergens_tags": [
+        "en:gluten"
+      ],
+      "brands": "Weetabix",
+      "code": "5010029000016",
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/501/002/900/0016/front_en.44.200.jpg",
+      "ingredients_text_en": "Wholegrain Wheat (95%), Malted Barley Extract, Sugar, Salt, Niacin, Iron, Riboflavin (B2), Thiamin (B1), Folic Acid.",
+      "lang": "en",
+      "nutriscore_grade": "a",
+      "nutrition_data_per": "100g",
+      "product_name_en": "Weetabix",
+      "product_quantity_unit": "g",
+      "quantity": "430 g",
+      "traces_tags": [],
+      "nutriments": {
+        "carbohydrates_100g": 68,
+        "energy-kcal_100g": 354,
+        "energy-kj_100g": 1531,
+        "fat_100g": 2,
+        "fiber_100g": 10,
+        "proteins_100g": 11,
+        "salt_100g": 0.28,
+        "sugars_100g": 4.2
+      }
+    },
+    {
+      "allergens_tags": [
+        "en:gluten"
+      ],
+      "brands": "Barilla",
+      "code": "8076800195057",
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/807/680/019/5057/front_en.3881.200.jpg",
+      "ingredients_text_en": "DURUM WHEAT SEMOLINA PASTA",
+      "nutriscore_grade": "a",
+      "nutrition_data_per": "100g",
+      "product_name_en": "Spaghetti Nº5",
+      "traces_tags": [
+        "en:eggs",
+        "en:mustard",
+        "en:soybeans"
+      ],
+      "nutriments": {
+        "carbohydrates_100g": 71,
+        "energy-kcal_100g": 359,
+        "energy-kj_100g": 1521,
+        "fat_100g": 2,
+        "fiber_100g": 3,
+        "proteins_100g": 13,
+        "salt_100g": 0.01,
+        "sugars_100g": 3.5
+      }
+    },
+    {
+      "allergens_tags": [
+        "en:gluten",
+        "en:soybeans"
+      ],
+      "brands": "Weetabix Limited",
+      "code": "5010029229110",
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/501/002/922/9110/front_en.3.200.jpg",
+      "ingredients_text_en": "Wholegrain Wheat (88%), Plain Chocolate (12%) (Sugar, Cocoa Mass, Cocoa Butter, Emulsifier: Soya Lecithin, Flavouring), Sugar, Salt, Flavouring, Iron, Niacin, Thiamin (B1), Riboflavin (B2), Folic Acid, Vitamin D.",
+      "lang": "fr",
+      "nutriscore_grade": "b",
+      "nutrition_data_per": "100g",
+      "product_name_en": "Crispy minis chocolate chip",
+      "product_quantity_unit": "g",
+      "quantity": "500g",
+      "traces_tags": [],
+      "nutriments": {
+        "carbohydrates_100g": 70,
+        "energy-kcal_100g": 386,
+        "energy-kj_100g": 1629,
+        "fat_100g": 5.1,
+        "fiber_100g": 10,
+        "proteins_100g": 10,
+        "salt_100g": 0.16,
+        "sugars_100g": 17
+      }
+    },
+    {
+      "allergens_tags": [
+        "en:gluten",
+        "en:sesame-seeds"
+      ],
+      "brands": "wasa, Barilla Sverige AB",
+      "code": "7300400481588",
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/730/040/048/1588/front_en.269.200.jpg",
+      "ingredients_text_en": "whole rye flour (57 g), wheat bran (27 g), oatmeal (13 g), sesame seeds (7.9 g), wheat germ, salt.",
+      "nutriscore_grade": "a",
+      "nutrition_data_per": "100g",
+      "product_name_en": "Fibres",
+      "traces_tags": [
+        "en:lupin",
+        "en:milk",
+        "en:mustard",
+        "en:soybeans"
+      ],
+      "nutriments": {
+        "carbohydrates_100g": 47,
+        "energy-kcal_100g": 333,
+        "energy-kj_100g": 1397,
+        "fat_100g": 5,
+        "fiber_100g": 26,
+        "proteins_100g": 12,
+        "salt_100g": 1.2,
+        "sugars_100g": 2
+      }
+    },
+    {
+      "allergens_tags": [
+        "en:milk",
+        "en:nuts"
+      ],
+      "brands": "Barilla",
+      "code": "8076809513753",
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/807/680/951/3753/front_en.347.200.jpg",
+      "ingredients_text_en": "sunflower oil, fresh basil 30%, cashew nuts, parmigiano reggiano pdo cheese 5%, (milk), maize fibre, whey powder (milk), salt, milk protein, extra virgin olive oil, sugar, basil extract, natural flavourings (milk), acidity regulator: lactic acid, garlic",
+      "nutriscore_grade": "e",
+      "product_name_en": "Barilla PESTO alla GENOVESE",
+      "traces_tags": [
+        "en:nuts"
+      ],
+      "nutriments": {
+        "carbohydrates_100g": 11,
+        "energy-kcal_100g": 492,
+        "energy-kj_100g": 2030,
+        "fat_100g": 47,
+        "fiber_100g": 3,
+        "proteins_100g": 4.7,
+        "salt_100g": 3.2,
+        "sugars_100g": 5
+      }
+    },
+    {
+      "allergens_tags": [
+        "en:gluten",
+        "en:milk",
+        "en:nuts"
+      ],
+      "brands": "Weetabix, Alpen",
+      "code": "5010029226133",
+      "image_front_small_url": "https://images.openfoodfacts.org/images/products/501/002/922/6133/front_en.3.200.jpg",
+      "ingredients_text_en": "Wholegrain Wheat (39%). Wholegrain Rolled Oats (37%), Raisins (12%), Sugar, Skimmed Milk Powder, Milk Whey Powder, Roasted Sliced Nuts (2.0%) (Hazelnuts, Almonds), Salt.",
+      "lang": "de",
+      "nutriscore_grade": "c",
+      "nutrition_data_per": "100g",
+      "product_name_en": "Alpen Original Muesli",
+      "product_quantity_unit": "g",
+      "quantity": "550g",
+      "traces_tags": [],
+      "nutriments": {
+        "carbohydrates_100g": 66,
+        "energy-kcal_100g": 374,
+        "energy-kj_100g": 1577.8,
+        "fat_100g": 5.6,
+        "fiber_100g": 7.7,
+        "proteins_100g": 11,
+        "salt_100g": 0.25,
+        "sugars_100g": 21
+      }
+    }
+  ]
+}

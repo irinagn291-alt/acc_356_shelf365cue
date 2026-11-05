@@ -1,0 +1,85 @@
+name: ShelfCue
+options:
+  developmentLanguage: en
+  deploymentTarget:
+    iOS: '17.0'
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: '6.0'
+    MARKETING_VERSION: '1.0'
+    CURRENT_PROJECT_VERSION: 1
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_EMIT_LOC_STRINGS: 'YES'
+targets:
+  ShelfCue:
+    type: application
+    platform: iOS
+    sources:
+    - Phone
+    - Catalog
+    - Shared
+    - WidgetSupport
+    - Config/ThirdPartyNotices.txt
+    - Config/PrivacyInfo.xcprivacy
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: 1,2
+        PRODUCT_BUNDLE_IDENTIFIER: app.shelfcue.food
+        INFOPLIST_FILE: Config/Phone.plist
+        CODE_SIGN_ENTITLEMENTS: Config/Shared.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    dependencies:
+    - target: ShelfCueWidget
+      embed: true
+  ShelfCueWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+    - Widget
+    - Shared
+    - Config/PrivacyInfo.xcprivacy
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.shelfcue.food.widget
+        INFOPLIST_FILE: Config/Widget.plist
+        CODE_SIGN_ENTITLEMENTS: Config/Shared.entitlements
+        TARGETED_DEVICE_FAMILY: 1,2
+        SKIP_INSTALL: 'YES'
+        APPLICATION_EXTENSION_API_ONLY: 'YES'
+  ShelfCueTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+    - Tests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.shelfcue.food.tests
+        GENERATE_INFOPLIST_FILE: 'YES'
+    dependencies:
+    - target: ShelfCue
+  ShelfCueUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+    - UITests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.shelfcue.food.uitests
+        GENERATE_INFOPLIST_FILE: 'YES'
+        TEST_TARGET_NAME: ShelfCue
+    dependencies:
+    - target: ShelfCue
+schemes:
+  ShelfCue:
+    build:
+      targets:
+        ShelfCue: all
+    test:
+      targets:
+      - ShelfCueTests
+      - ShelfCueUITests
+  ShelfCueWidget:
+    build:
+      targets:
+        ShelfCueWidget: all

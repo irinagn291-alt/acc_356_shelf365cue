@@ -1,0 +1,16 @@
+Shelf365Cue is a pantry inventory app for people who want to keep track of food packages at home. It records batches, package dates, quantities and locations, and provides a diary, calendar and summaries of pantry activity.
+
+• Find products by name, brand or barcode, or scan a food package.
+• Use starter products and previously opened labels offline.
+• Stock batches with pack count, location, package date and note.
+• Filter and sort “Batches”.
+• Edit a “Batch ticket” and mark packs “Used” or “Discarded”.
+• Perform a “Stocktake” and save corrections as “Counted” movements.
+• Review and undo eligible stock movements in “Diary”.
+• Record dated notes, optionally linked to a product.
+• Review package dates, barcode lookups and diary activity in “Calendar”.
+• View pantry counts, trends and storage totals in “Insights”.
+• Open the product’s available ingredients and source information.
+• Use a home-screen widget that opens the shelves.
+
+Check the printed package for current ingredients and dates.
