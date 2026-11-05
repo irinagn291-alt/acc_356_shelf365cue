@@ -1,4 +1,4 @@
-<!-- gf-brief source=377447d64cfa2989753911d7e44b06eacc8cab4c56e51128510e2b584fd5d5c1 written=2026-11-05T17:54:54+03:00 -->
+<!-- gf-brief source=a47d183f08cbe53591065f04543b61252fe79c80afc644c70963e5a10b0cb1a3 written=2026-11-05T17:55:56+03:00 -->
 # Shelf365Cue
 
 ## What it is
